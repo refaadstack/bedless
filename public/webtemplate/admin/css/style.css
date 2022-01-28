@@ -1,0 +1,202 @@
+/* CSS Codes by: JIM */
+
+/*reset*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, 
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, 
+font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, 
+tfoot, thead, tr, th, td {
+	border:0pt none;
+	font-size:100%;
+	margin:0pt;
+	outline-color:invert;
+	outline-style:none;
+	outline-width:0pt;
+	padding:0pt;
+}
+
+/* body */
+body { 
+margin:0; 
+padding:0; 
+font:12px Verdana, Arial, Helvetica, sans-serif; 
+color:#000; 
+background:url(images/bg.jpg) repeat-x #8ec110; 
+}
+
+/*basics*/
+img, a {border:none; outline:none !important}
+a { text-decoration:none; color:#ff6905;}
+a:hover { text-decoration:underline; color:#ff6905;}
+.comp{ color:#003300; font-weight:bold; }
+.comingsoon{ color:red; font-weight:bold; font-style:italic; }
+.clearfix{ clear:both; overflow:hidden; }
+.floatleft-img{ float:left; padding-right:10px;}
+.floatright-img{ float:right; margin-left:10px; border:3px outset #003300;}
+.f-leftimg{float:left; margin-right:10px; margin-top:10px;} 
+.f-left{float:left;}
+.f-right{float:right;}
+.no-border a {border:none !important;}
+
+/*layers*/
+#wrapper{ width:1000px; height:auto; margin:0 auto 0 auto; }
+#banner{height:133px; width:1000px; background:url('images/bannerbg.jpg') no-repeat;  }
+#nav{height:50px; width:1000px; margin-top:14px;}
+#main{min-height:500px; width:1000px; background:#FFF;}
+	.border-top{background:url('images/border-top.jpg') no-repeat left top; width:1000px; min-height:42px;}
+	.border-bottom{background:url('images/border-bottom.jpg') no-repeat; width:1000px; height:33px;}
+#footerbg{height:80px; width:100%; background:url('images/footer-wrapper.jpg') repeat-x;}
+#footer{height:80px; width:1000px;  margin:0 auto;}
+
+/*inside banner  */
+.complogo{padding-top:45px; padding-left:15px;}
+.callus{font-size:17px; font-weight:normal; color:#FFF; padding-top:20px; padding-right:76px;}
+.callus span{font-weight:bold; }
+
+#tbl2 table{
+	border: 1px solid black;
+	padding :10px;
+	width :100%;
+	
+	}
+#tbl2  th {
+	border: 1px solid black;
+	padding :10px;
+
+	}
+#tbl2  td {
+	border: 1px solid black;
+	padding :10px;
+	
+	}
+
+#tbl2 table {
+	border-collapse: collapse;
+	}
+.contact-infos td {
+	padding-bottom: 2px;
+    padding-top: 13px;
+}
+
+
+/*inside navigation bar */
+#nav ul { padding:0; margin:0; list-style-image:none; list-style:none; padding-left:4px; }
+#nav ul li{  display:inline; }
+#nav ul li a{ color:#000; font-weight:bold;  display:block; float:left; padding:15px 23px; padding-top:18px; font-size:14px; font-family:Verdana; color:#000; }
+#nav ul li a:hover ,#nav ul li.current_page_item a{ text-decoration:none; background:url('images/nav-hover.jpg') repeat-x left top; color:#FFF; }
+#nav ul li.nav-spacer{ background:url('images/nav-spacer.jpg') no-repeat left top; width:2px; height:50px; float:left; }
+
+
+/* left and right main */
+#col-a{height:auto; width:250px;}
+	.left-padding{margin-top:28px; margin-left:6px;}
+	.services{background:url('images/servicesbg.png') no-repeat; width:242px; height:341px; }
+	.services h2{font-size:28px; color:#FFF; padding-top:10px; padding-left:15px; }
+	.services p{font-size:12px; color:#000; padding:10px 15px; line-height:16px;}
+	.services-list {overflow: hidden; width:224px; margin-left:10px; margin-top:10px;}
+	.services-list ul{margin: 0; padding: 0; list-style: none; margin-bottom: 0; font-weight:bold; font-size:10px;}
+	.services-list ul li{margin-bottom: 3px; line-height:35px; width:189px; height:37px;  background: url(images/services-tab.png) no-repeat left bottom; padding-left:40px;}
+	.view_more a{display: block; margin-left:10px; background: url(images/services-tab.png) no-repeat left top; width:189px; height:37px; text-decoration:none; color:#003333; padding-left:40px; font-size:13px; font-weight:bold; line-height:35px;}
+	.view_more a:hover, .services-list ul li.current_page_item a{background: url(images/services-tab.png) no-repeat left bottom; color:#000;}
+	
+	.commitment-box{background:url('images/bg-commitment.jpg') no-repeat; width:244px; height:295px; margin: 5px;}
+	.commitment-box h2{font-size:18px; color:#003300; padding-left:20px; padding-top:15px;}
+	.commitment-box p{font-size:12px; color:#000; padding:10px 20px; line-height:19px;}
+	.commitment-box a{ color:#ff7e27; text-decoration:underline;}
+	.commitment-box a:hover{ color:#ff7e27; text-decoration:none;}
+	
+	.contact{background:url('images/bg-contact.jpg') no-repeat; width:242px; height:192px; margin:5px;}
+	.contact h2{font-size:18px; color:#003300; padding-left:20px; padding-top:15px;}
+	.contact p{color:#333333; padding: 15px 15px; line-height:15px;}
+	.contact a{ color:#ff7e27; text-decoration:underline;}
+	.contact a:hover{ color:#ff7e27; text-decoration:none;}
+	
+	.left-tabs {overflow: hidden; width:242px; margin:5px;}
+	.left-tabs ul{margin: 0; padding: 0; list-style: none; margin-bottom: 0;}
+	.left-tabs ul li{margin-bottom: 3px;}
+	.left-tabs ul li a{display: block; background: url(images/left-tabs.png) no-repeat left top; width:242px; height:40px; text-decoration:none; color:#003333; text-align:center;; font-size:16px; font-weight:bold; line-height:40px;}
+	.left-tabs ul li a:hover{background: url(images/left-tabs.png) no-repeat left bottom; color:#000;}
+
+
+#col-b{height:auto; width:745px;}
+	/*flash*/
+	#flash{height:412px; width:742px; background:url('images/flashbg.png') no-repeat; margin-top:28px; position:relative;}
+	.fade-image{margin:7px 6px;}
+	.slogan{background:url('images/bg-slogan.png') no-repeat; width:730px; height:52px; position:absolute; z-index:99; bottom:7px; left:6px;}
+	.slogan h2{color:#009900; font-weight:normal; font-size:40px; text-align:center; padding-top:6px;}
+	
+	/* MID */
+	#mid{margin-top:15px;}
+	#mid h2{text-align:center; color:#000; font-size:20px; font-weight:normal; padding-top:15px;}
+		.midbox1{background:url('images/midbox1.png') no-repeat; width:242px; height:126px; float:left; margin-left:5px;}
+		.midbox1 p{line-height:18px; padding:10px 6px 0 10px;}
+		.midbox1 a{ color:#ff7e27; text-decoration:underline; font-weight:bold;}
+		.midbox1 a:hover{ color:#ff7e27; text-decoration:none;}
+		
+		.midbox2{background:url('images/midbox2.png') no-repeat; width:242px; height:126px; float:left; margin-left:3px;}
+		.midbox2 p{line-height:18px; padding:10px 6px 0 10px;}
+		.midbox2 a{ color:#ff7e27; text-decoration:underline; font-weight:bold;}
+		.midbox2 a:hover{ color:#ff7e27; text-decoration:none;}
+		
+	#maincontent{margin:20px 15px 20px 10px;}	
+	#maincontent h1{font-family:Arial; font-size:23px; font-weight:normal; padding-top:20px; padding-bottom:10px;}	
+	.title{font-weight:bold; font-size:26px;}	
+	.content{ line-height:22px; text-align:justify; }
+	.content p{padding: 15px 0 8px 0;}
+	.content ul{ list-style:none; margin:0; padding:0; margin-left:30px; margin-right:15px;}
+	.content ul li {background:url(images/img-bull.jpg) no-repeat left top; padding-left:25px; list-style:none; margin-bottom:5px; }
+	.content ul ul {padding:0!important; margin:0!important;}
+	.content ul ul li{padding:0 0 0 25px!important;}
+	
+	.tab-referral{width:321px; height:97px; margin:0 auto;}
+	.tab-referral a{background:url('images/tab-referral.png') no-repeat; width:321px; height:97px; display:block; }
+	.tab-referral a:hover{background:url('images/tab-referral-hover.png') no-repeat;}
+	
+
+/*footer inside*/
+	.footer-links{margin-top:8px;}
+	.footer-links ul{ padding:0; margin:0; padding-top:5px; text-align:center;}
+	.footer-links ul li {display:inline; padding:0px 5px; }
+	.footer-links ul li.first {border:none;}
+	.footer-links ul li a {color:#000; text-decoration:none; font-size:12px; font-family:Verdana; font-weight:normal; text-decoration:none; text-transform:uppercase;}
+	.footer-links ul li a:hover {color:#000; text-decoration:underline;}
+
+	#copyright { font-size:12px; font-family:Verdana; font-weight:normal; color:#006600; line-height:18px; text-align:center; margin-top:8px;}
+	#copyright strong{ color:#ff3300; font-weight:normal;}
+	#copyright a{ color:#006600; text-decoration:none;}
+	#copyright a:hover{ color:#006600; text-decoration:underline;}
+
+
+/*search*/
+.search_results div.page, .search_results div.post {padding:20px; margin-bottom:8px; background:#d1f86e; border-bottom:2px solid #CCC; margin-top:20px;}
+.search_results h2 a {text-decoration:none;}
+.search_results div.entry-meta {font-style:italic;}
+.search_results a {color:#000;}
+.search_results a:hover {text-decoration:none;}
+/*** COMMENTS STYLE ***/
+#comments, #comments-title{padding-top:15px;}
+ol.commentlist li {background: url(images/com_line.jpg) no-repeat left bottom; padding-bottom:25px; margin-bottom:10px; padding-top:15px; margin-left:-10px; padding-right:25px;}
+ol.commentlist {border:1px dashed #CCC; width:100%;}
+ol.commentlist ul {border-top:1px dashed #CCC; width:100%; margin-top:15px; list-style:none;}
+ol.commentlist ul li {border-bottom:1px dashed #CCC;}
+.comment p {padding:15px 0; line-height:20px;}
+.comment-form-author input {margin-left:25px;}
+.comment-form-email input {margin-left:28px;}
+.comment-form-url input {margin-left:17px}
+#respond {width:100%; border:1px solid #CCC; background:#FFFFE1; padding:15px 20px 0 20px; margin-top:25px;}
+.form-submit input {background:#FFFFE1; border:none; color:#FFF; font-weight:bold; padding:7px 12px; cursor:pointer;}
+
+
+/*COPY THE FF CSS STYLE*/
+	.resources {font-size:14px; }
+		.resources a {color:#990100; text-decoration:none; display:block;font-weight:bold;}
+			.resources a:hover {color:#ff0000; text-decoration:none; padding-left:1px;}
+		.resources ul,.resources li {list-style-type:none; margin:0; padding:0;}
+		.resources ul li {margin-bottom:8px; padding:8px; background:#FAFDFE; border:1px solid #ACD7D6; border-bottom:2px solid #95CCCB;}
+			.resources ul li span {font-size:11px; color:#666666; letter-spacing:1px;} /*optional*/
+			
+/* services style */
+.technology{cursor: pointer; font:12px Verdana; margin: 2px 0; padding:5px 0;}
+.openlanguage{color: #000; background:#ccff4e; }
+.closedlanguage{color: #3c9700; }
+.thelanguage{padding:0 10px; border: 1px solid #8ec110;}
